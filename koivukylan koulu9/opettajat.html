@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+
+<html lang="fi">
+
+<!-- Written by: Akin Lawrence//-->
+<head>
+
+
+<style>
+.lin {
+color:red;
+text-decoration: none;
+padding: 2px;
+}
+.lin:hover{
+text-decoration: underline;
+}
+
+</style>
+
+
+<meta charset="UTF-8">
+<link rel="icon" href="pic/favicon.png" type="image/png" sizes="32x32">
+
+<meta name="keywords" content="koivukylän yläkoulu, koivukylä, koivis, koivukylän yläaste">
+ 
+<meta name="description" content=""> <!-- lisää  tähän tekstiä //-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Opettajat - Koivukylän koulu</title> <!-- muokkaa tätä //-->
+
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+
+<link rel="stylesheet" type="text/css" href="css/btn.css">
+
+<link rel="stylesheet" type="text/css" href="css/toiset.css">
+
+
+<div id="mySidenav" class="sidenav">
+  
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	
+	<a href="index.html">Etusivu</a>
+	
+	<a href="yhteistiedot.html">Yhteistiedot</a>
+	
+	<a href="ilmoituksia.html">Ilmoituksia</a>
+	
+	<a href="tapahtumat.html">Tapahtumat</a>
+	
+	<a class="active">Opettajat</a>
+	
+	<a href="lomakkeet.html">Lomakkeet</a>
+	
+	<a href="linkit.html">Linkit</a>
+	
+	<a href="vk/vk.html">Koivis-lehti</a>
+
+
+</div>
+
+
+<h1 style="text-align:center;float:top;color:#170202">Koivukylän Koulu</h1>
+
+
+<div id="mybar">
+
+<ul class="topnav" id="myTopnav">
+
+	<li><span style="font-size:30px;cursor:pointer; color: white; padding-top: 3px;padding-left:5px;padding-right:5px" onclick="openNav()">
+	<img src="pic/menu3.png"></span></a></li>
+
+	<li><a href="index.html">Etusivu</a></li>
+
+	<li><a href="yhteistiedot.html">Yhteistiedot</a></li>
+
+	<li><a href="ilmoituksia.html">Ilmoituksia</a></li>
+
+	<li><a href="tapahtumat.html">Tapahtumat</a></li>
+
+	<li><a class="active">Opettajat</a></li>
+	
+	<li><a href="lomakkeet.html">Lomakkeet</a></li>
+	
+	<li><a href="linkit.html">Linkit</a></li>
+	
+	<li><a href="vk/vk.html">Koivis-lehti</a></li>
+
+	<li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;font-size=6" onclick="openNav()">Valikko</a>
+</li>
+
+</ul>
+
+
+</head>
+</div>
+
+
+<br>
+<div id="page-wrap">
+
+
+<body bgcolor="#B2A5C1">
+
+
+
+<div class="plate" width="100px">
+	
+<div class="ftext">
+		
+<p>Opettajat</p>
+
+</div>
+
+<span  style="border: 2px;box-shadow: 0 3px 2px 0 gray;background-color: #bcc2c4;width: 100%;height: 83%;margin-top: 10px;display: block;float: left;">
+<div style="padding: 10px">
+<font size="4" ><b>Katso opettajat <a href="doc/Opinto-opas_16-17.pdf" target="_blank" class="lin">Opinto-oppaasta (pdf)</a></b></font> <br>
+<p>Sähköpostiosoitteet: etunimi.sukunimi@eduvantaa.fi</p>
+
+</div>
+</span>
+
+
+</div>
+</div>
+</body>
+<b id="page-wrap">Koivukylän koulu © 2017</b>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+function mfunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</html>

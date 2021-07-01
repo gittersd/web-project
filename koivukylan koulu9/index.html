@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="fi">
+<!-- Written by: Akin Lawrence//-->
+<style>
+.lin {
+color:red;
+text-decoration: none;
+padding: 2px;
+}
+.lin:hover{
+text-decoration: underline;
+}
+</style>
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="pic/favicon.png" type="image/png" sizes="32x32"> 
+<meta name="keywords" content="koivukylän yläkoulu, koivukylä, koivis, koivukylän yläaste">
+ <meta name="description" content=""> <!-- lisää  tähän tekstiä //-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Koivukylän koulu - Vantaa</title> <!-- muokkaa tätä //-->
+<link rel="stylesheet" type="text/css" href="css/koivu.css">
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+<link rel="stylesheet" type="text/css" href="css/btn.css">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<a class="active">Etusivu</a>
+	<a href="yhteistiedot.html">Yhteistiedot</a>
+	<a href="ilmoituksia.html">Ilmoituksia</a>
+	<a href="tapahtumat.html">Tapahtumat</a>
+	<a href="opettajat.html">Opettajat</a>
+	<a href="lomakkeet.html">Lomakkeet</a>
+	<a href="linkit.html">Linkit</a>
+	<a href="vk/vk.html">Koivis-lehti</a>
+
+</div>
+
+<h1 style="text-align:center;float:top;color:#170202">Koivukylän Koulu</h1>
+
+<div id="mybar">
+<ul class="topnav" id="myTopnav">
+<li><span style="font-size:30px;cursor:pointer; color: white; padding-top: 3px;padding-left:5px;padding-right:5px" onclick="openNav()"> <img src="pic/menu3.png"></span></a></li>
+<li><a class="active">Etusivu</a></li>
+	<li><a href="yhteistiedot.html">Yhteistiedot</a></li>
+	<li><a href="ilmoituksia.html">Ilmoituksia</a></li>
+	<li><a href="tapahtumat.html" >Tapahtumat</a></li>
+	<li><a href="opettajat.html">Opettajat</a></li>
+	<li><a href="lomakkeet.html">Lomakkeet</a></li>
+	<li><a href="linkit.html">Linkit</a></li>
+	<li><a href="vk/vk.html">Koivis-lehti</a></li>
+<li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;font-size=6" onclick="openNav()">Valikko</a>
+</li>
+</ul>
+</head>
+</div>
+<br>
+<div id="page-wrap">
+<body bgcolor="#B2A5C1">
+
+<div class="plate">
+	<img src="pic/etusivukuva.jpg" class="imag" style="/*border-radius: 8px*/ box-shadow: 0 4px 8px 0 gray;" width="45%" height="86%" alt="Frontpage picture">
+	<div class="ftext">
+		<div style="padding:15px">							
+			<!-- Etusivun tekstit tänne //-->
+			<h1 align="center">Ajankohtaista:</h1>			
+			<p style="font-size:20px">*************************</p>
+			<a target="_blank" class="lin" href="doc/Opinto-opas_16-17.pdf">Opinto-opas 2016-2017 (pdf)</a> <br>
+			<a target="_blank" class="lin" href="doc/Valinnaisopas2017-2019.pdf">Valinnaisaineopas 2017-2019 (pdf)</a>
+			<p style="font-size:20px">*************************</p>			
+		</div>	
+	</div>
+</div>
+
+</body>
+</div>
+<b id="page-wrap">Koivukylän koulu © 2017</b>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+function mfunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</html>

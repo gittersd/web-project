@@ -1,0 +1,9 @@
+﻿ÄLÄ MUOKKAA TÄTÄ KANSIOTA, 
+jos haluat muuttaa ilmoitusta tästä mene näihin tiedostoihin !:
+
+- ilmoituksia   	# Yleiset ilmoitukset
+- ilmoituksia-op 	# Oppilaan ohjaaja ilmoitukset
+- ilmoituksia-reh 	# Rehtorin ilmoitukset
+- ilmoituksia-th 	# Terveyden hoitajan ilmoitukset 
+ 
+
