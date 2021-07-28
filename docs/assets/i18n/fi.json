@@ -1,0 +1,31 @@
+{
+	"examPage": {
+		"anwserText": "vastaus",
+		"assignmentText": "Tehtävä",
+		"correctAnwser": "Oikea vastaus:",
+		"descriptionForTest": "Koe koostuu (10 - 15) tehtävästä, joista vastataan kaikkiin. Matikan osassajokainen tehtävä on arvoltaan 1 piste. Halutessasi voit käyttää kirjaa apuna, kaavioita tai taulukoita ja ratkaista sen avulla tehtäviä. Joskoe on valmiina voit painaa palautus nappia kokeen lopussa. Aika löytyykokeen vasemmasta kulmasta ja jos aika loppuu niin koe automaaattisestipalautetaan. \n\n terveisin, Akin Lawrence! ",
+		"headTitle": "2 LK - Testi",
+		"mathHeader": "Ensimmäinen osio - Matematiikka",
+		"returnBtn": "palaa",
+		"returnExamButton": "Palauta koe",
+		"timeLeft": "Aikaa jäljellä"
+	},
+	"frontPage": {
+		"credit": "Virallinen Geni koe järjestelmä (2021.07) | Copyright © Akin Lawrence, 2021",
+		"description": "Kokeessa esiintyy lukujonoja, kertotaulu-, jaettuna- ,suurustehtäviä sekä plus- ja miinuslaskuja. Aloittaaksesi kokeen paina \"Tee automaaattisesti luotu harjoituskoetta\" nappia, \n                     jolloin ajastin lähtee käyntiin ja pääset tekemään tehtäviä. Pääset näkemään oikeita vastauksia kokeen jälkeen, jonka avulla pääset oppiimaan virheistä",
+		"examButton": "Tee automaattisesti luotu harjoituskoetta",
+		"firstTitle": "Kokeessa on tällä hetkellä automaattisesti luotuja matikan tehtäviä, jotka auttavat 2-luokan matikan harjoittelemiseen",
+		"languageButton": "Kielet"
+	},
+	"frontPageMore": {
+		"diffuculty": "Vaikeus:",
+		"practiseButton": "Harjoittele",
+		"title": "Harjoittele matikan osioita",
+		"underTitle1": "Harjoittele kertotauluja",
+		"underTitle2": "Harjoittele lukujonoja",
+		"underTitle3": "Harjoittele pluslaskuja",
+		"underTitle4": "Harjoittele jakolaskuja",
+		"underTitle5": "Harjoittele miinuslaskuja",
+		"underTitle6": "Harjoittele Suuruus tehtäviä"
+	}
+}
